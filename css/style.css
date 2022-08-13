@@ -1,6 +1,25 @@
 body {
-    background: #070506;
-    background-image: url('../img/main-bg.png');
-    background-repeat: no-repeat;
-    /*background-position: top right 20%;*/
+    background: #070506 url('../img/main-bg.png');
+    /*background-image: url('../img/main-bg.png');
+    background-repeat: no-repeat;*/
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 90%;
+    max-width: 1060px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+}
+.header-logo {
+    margin-right: 70px;
+}
+.nav_link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
 }
